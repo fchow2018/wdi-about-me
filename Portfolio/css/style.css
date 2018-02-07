@@ -157,6 +157,15 @@ header {
 	background-attachment: fixed;
 	height: 100vh;
 }
+
+#welcome {
+	margin-left: 0em;
+}
+
+#welcome {
+	margin-right: 40em;
+}
+
 nav {
 	position: fixed;
 	top: 0;
@@ -174,8 +183,11 @@ nav a {
 	font-weight: 600;
 	letter-spacing: 0.75px;
 	letter-spacing: .05rem;
-	padding: 3px 60px;
-	padding: .2rem 4rem;
+	/*padding: 2px 60px;
+	padding: .2rem 4rem;*/
+	padding: 2em 4em 3em 0;
+/*	padding-left: 4em;
+	padding-bottom: 3em;*/
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
