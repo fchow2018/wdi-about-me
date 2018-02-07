@@ -2,14 +2,21 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+header {
+	padding: 1em 1em;
+	background-color: #007889;
+}
+
 #welcome {
-	/*margin-right: 20em;*/
+	margin-left: 10em;
 }
 
 nav {
-	margin: 0 20em 0 10em;
+	margin: -1em 0 0 70em;	
 }
 
 a {
 	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
 }

@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<nav id="welcome"><a href="#home">Welcome</a>
+		<a id="welcome" href="#home">Welcome</a>
 			<nav>
 				<a href="#about">About</a>
 				<a href="#portfolio">Portfolio</a>
@@ -17,12 +17,51 @@
 			</nav>			
 		</nav>
 	</header>
-	<div id="home">
+	<section id="home">
 		<img src="images/20160618_FelixUniversityGraduation1.jpg">
 		<h1>Felix Chow</h1>
 		<h3>Web Designer and<br>Full Stack Developer</h3>
-	</div>
-	<footer>
+	</section>
+	<section id="about">
+		<h1>About</h1>
+		<p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+
+		Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada.</p>
+	</section>
+	<section id="portfolio">
+		<h1>Portfolio</h1>
+	</section>
+	<section id="testimonials">
+		<h1>Testimonials</h1>
+		<p>"Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+
+		Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada.</p>
+	</section>
+	<section id="contact">
+		<div class="wrap">
+		<h2>Get in Touch</h2>
+			<form class="contact" novalidate>
+				<div class="form-group col-third">
+					<input type="text" placeholder="Full Name*" >
+					<p class="error-message">Please enter your full name.</p>
+				</div>
+				<div class="form-group col-third">
+					<input type="email" placeholder="Email*" >
+					<p class="error-message">Please enter an email address.</p>
+				</div>
+				<div class="form-group col-third">
+					<input type="text" placeholder="Subject*" >
+					<p class="error-message">Please enter a subject.</p>
+				</div>
+				<div class="form-group">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+					<p class="error-message">Please enter a message.</p>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</section>
+	<footer>Copyright © 2018 Felix Chow
 	</footer>
 </body>
 </html>
