@@ -49,6 +49,11 @@ h2 {
 	margin-bottom: 3rem;
 }
 
+/*.about.wrap h2, p {
+	color: #fff;
+}*/
+
+
 h3 {
 	margin-bottom: 45px;
 	margin-bottom: 3rem;
@@ -138,7 +143,7 @@ section {
 }
 
 .callout {
-	background-color: #CFF2F6;
+	background-color: #007889;
 }
 
 /* ----------------------------------------
