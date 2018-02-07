@@ -1,67 +1,85 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<title>About Me</title>
-	<meta charset utf-8>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" defer></script>
+	<script src="js/main.js" defer></script>
+
 </head>
 <body>
-	<header>
-		<a id="welcome" href="#home">Welcome</a>
-			<nav>
-				<a href="#about">About</a>
-				<a href="#portfolio">Portfolio</a>
-				<a href="#quotes">Quotes</a>
-				<a href="#contact">Contact</a>
-			</nav>			
-		</nav>
-	</header>
-	<section id="home">
-		<img src="images/20160618_FelixUniversityGraduation1.jpg">
-		<h1>Felix Chow</h1>
-		<h3>Web Designer and<br>Full Stack Developer</h3>
-	</section>
-	<section id="about">
-		<h1>About</h1>
-		<p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
 
-		Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada.</p>
-	</section>
-	<section id="portfolio">
-		<h1>Portfolio</h1>
-	</section>
-	<section id="testimonials">
-		<h1>Testimonials</h1>
-		<p>"Nulla porttitor accumsan tincidunt. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+	<header class="vertical-center">
 
-		Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget malesuada.</p>
-	</section>
-	<section id="contact">
-		<div class="wrap">
-		<h2>Get in Touch</h2>
-			<form class="contact" novalidate>
-				<div class="form-group col-third">
-					<input type="text" placeholder="Full Name*" >
-					<p class="error-message">Please enter your full name.</p>
-				</div>
-				<div class="form-group col-third">
-					<input type="email" placeholder="Email*" >
-					<p class="error-message">Please enter an email address.</p>
-				</div>
-				<div class="form-group col-third">
-					<input type="text" placeholder="Subject*" >
-					<p class="error-message">Please enter a subject.</p>
-				</div>
-				<div class="form-group">
-					<textarea name="" id="" cols="30" rows="10" placeholder="Message*"></textarea>
-					<p class="error-message">Please enter a message.</p>
-				</div>
-				<button type="submit">Submit</button>
-			</form>
+		<div>
+			<h1><a href="">Felix Chow</a></h1>
+			<h2>Web Designer and<br>Full Stack Developer</h2>
 		</div>
+	</header>
+	<nav>
+		<a class="hamburger" href=""><i class="fa fa-bars"></i></a>
+		<ul>
+			<li<a id="welcome" href="#home">Welcome</a>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#testimonials">Testimonials</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<section id="about" class="callout about">
+		<article class="wrap">
+			<h2>About</h2>
+			<p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+
+			Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Donec sollicitudin molestie malesuada.</p>
+		</article>
 	</section>
-	<footer>Copyright © 2018 Felix Chow
-	</footer>
+</section>
+<section id="portfolio">
+	<div class="wrap">
+		<h2>Portfolio</h2>
+	</div>
+</section>
+<section id="contact">
+	<div class="wrap">
+		<h2>Get in Touch</h2>
+		<form class="contact" novalidate>
+			<div class="form-group col-third">
+				<input type="text" placeholder="Full Name*" >
+				<p class="error-message">Please enter your full name.</p>
+			</div>
+			<div class="form-group col-third">
+				<input type="email" placeholder="Email*" >
+				<p class="error-message">Please enter an email address.</p>
+			</div>
+			<div class="form-group col-third">
+				<input type="text" placeholder="Subject*" >
+				<p class="error-message">Please enter a subject.</p>
+			</div>
+			<div class="form-group">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Message*"></textarea>
+				<p class="error-message">Please enter a message.</p>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+</section>
+<footer>
+	<div class="wrap">
+		<div class="social-links">
+			<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+		</div>
+		<input type="text" placeholder="Email Address">
+		<button type="submit">Subscribe</button>
+	</div>
+
+	<p class="copyright">&copy;2016 Sarah Holden</p>
+</footer>
+
 </body>
 </html>
