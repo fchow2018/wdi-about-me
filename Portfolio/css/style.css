@@ -1,0 +1,15 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#welcome {
+	/*margin-right: 20em;*/
+}
+
+nav {
+	margin: 0 20em 0 10em;
+}
+
+a {
+	text-decoration: none;
+}
