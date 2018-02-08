@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	text-transform: uppercase;
 	letter-spacing: .02em;
-	/*text-align: center;*/
+	text-align: center;
 	color: #44545E;
 }
 
@@ -42,6 +42,14 @@ h1 {
 	font-size: 2.5rem;
 	letter-spacing: 12px;
 	letter-spacing: .8rem;
+}
+
+.vertical-center h1 {
+	margin: -5em 0 0 20em;
+}
+
+.vertical-center h2 {
+	margin: 1em 0 0 25em;
 }
 
 h2 {
@@ -165,6 +173,7 @@ nav {
 	right: 0;
 	background-color: #007889;
 	z-index: 100;
+	text-align: center;
 }
 
 nav li {
@@ -175,11 +184,19 @@ nav a {
 	font-weight: 600;
 	letter-spacing: 0.75px;
 	letter-spacing: .05rem;
-	padding: 2em 3em 3em 0;
+	padding: 2em 3em 2em 0;
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+nav a:hover {
+	color: #EA7200;
+}
+
+h1 a:hover {
+	color: #EA7200;
 }
 
 .hamburger {
@@ -187,11 +204,10 @@ nav a {
 }
 
 h1 a,
-h1 a:hover,
+h1,
 header h2 {
 	color: #fff;
 }
-
 
 /* ----------------------------------------
 Buttons
@@ -219,11 +235,6 @@ button:hover {
 	font-weight: 600;
 }
 
-.articles button {
-	margin-top: 30px;
-	margin-top: 2rem;
-}
-
 /* ----------------------------------------
 About
 ------------------------------------------- */
@@ -233,6 +244,7 @@ About
 	font-size: 1.1rem;
 	line-height: 1.1;
 	color: #fff;
+	text-align: center;
 }
 
 .about h2 {
@@ -242,14 +254,24 @@ About
 
 
 /* ----------------------------------------
-Gallery
+Portfolio
 ------------------------------------------- */
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
+#portfolio h2 {
+	text-align: center;
+}
+
+.carousel-item img {
+	margin-bottom: 1em;
+}
+
+li {
+	margin-bottom: 5em;
+}
+
+h3, p {
+	text-align: center;
+}
 
 /* ----------------------------------------
 Testimonials
@@ -261,24 +283,30 @@ Testimonials
 	font-size: 1.1rem;
 	line-height: 1.1;
 	color: #fff;
+	text-align: center;
+	/*margin-bottom: 2em;*/
 }
 
+blockquote {
+	margin-bottom: 2em;
+}
+
+/*.wrap {
+	margin-bottom: -100em;	
+}*/
+
 .testimonials h2 {
-	margin-bottom: 0;
+	margin-bottom: -1em;
 	color: #fff;
 }
 
-
-.carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
 /* ----------------------------------------
 Forms
 ------------------------------------------- */
 
 #contact {
 	padding-top: 2rem;
+	text-align: center;
 }
 
 form {
@@ -361,11 +389,6 @@ footer {
 	overflow: auto;
 }
 
-footer .wrap {
-	padding: 30px 15px;
-	padding: 2rem 1rem;
-}
-
 .social-links a {
 	font-size: 30px;
 	font-size: 2rem;
@@ -382,6 +405,7 @@ footer .wrap {
 	padding: 15px 0 3px;
 	padding: 1rem 0 .2rem;
 	color: #fff;
+	text-align: center;
 }
 
 /* ----------------------------------------
@@ -394,7 +418,7 @@ Error Styles
 }
 
 .error-message {
-	margin: -8px 0 12px;
+	margin: 8px 0 12px;
   text-align: left;
   font-size: .9rem;
   color: #ED5254;
