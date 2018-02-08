@@ -155,11 +155,7 @@ header {
 }
 
 #welcome {
-	margin-left: 0em;
-}
-
-#welcome {
-	margin-right: 40em;
+	margin: 0 40em 0 2em;
 }
 
 nav {
@@ -179,7 +175,7 @@ nav a {
 	font-weight: 600;
 	letter-spacing: 0.75px;
 	letter-spacing: .05rem;
-	padding: 2em 4em 3em 0;
+	padding: 2em 3em 3em 0;
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
