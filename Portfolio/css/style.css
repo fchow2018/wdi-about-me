@@ -149,7 +149,7 @@ header {
 	padding-top: 30px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url('../images/home_header_bg.jpg');
+	background-image: url('../images/20160618_FelixUniversityGraduation.jpg');
 	background-attachment: fixed;
 	height: 100vh;
 }
@@ -179,11 +179,7 @@ nav a {
 	font-weight: 600;
 	letter-spacing: 0.75px;
 	letter-spacing: .05rem;
-	/*padding: 2px 60px;
-	padding: .2rem 4rem;*/
 	padding: 2em 4em 3em 0;
-/*	padding-left: 4em;
-	padding-bottom: 3em;*/
 	display: inline-block;
 	border-bottom: none;
 	text-transform: uppercase;
@@ -371,17 +367,8 @@ input, textarea {
 Footer
 ------------------------------------------- */
 footer {
-	background-color: #CDF3F6;
+	background-color: #000;
 	overflow: auto;
-}
-
-footer input {
-	padding: 11px 10px;
-	width: 300px;
-	margin-right: 30px;
-	margin-right: 2rem;
-	border: 0;
-	text-align: center;
 }
 
 footer .wrap {
@@ -404,6 +391,7 @@ footer .wrap {
 	border-top: 2px solid #44545E;
 	padding: 15px 0 3px;
 	padding: 1rem 0 .2rem;
+	color: #fff;
 }
 
 /* ----------------------------------------
@@ -462,6 +450,10 @@ Media Queries
 @media only screen and (max-width: 560px) {
 	html {
 		font-size: 14px;
+	}
+
+	nav a {
+		padding: 2em -3em 3em 0;
 	}
 
 	nav ul {
