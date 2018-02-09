@@ -3,12 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About Me</title>
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous" defer></script>
-	<script src="js/main.js" defer></script> -->
-
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -17,7 +11,7 @@
 	<script src="js/main.js" defer></script>
 </head>
 <body>
-
+	<script>document.p.testimonial_one += 'fade-out';</script>
 	<header class="vertical-center">
 
 		<div>
@@ -38,7 +32,7 @@
 		<section id="about" class="callout about">
 			<article class="wrap">
 				<h2>About</h2>
-				<p>I am a web developer student who loves to learn new things and tries to get along with everyone. I have graphic design experience, and try to apply my creativity  &#8212; which stems from my love for music &#8212; to the websites I create. On top of my musical passion, I love watching ice hockey and exploring the history of various places.</p>
+				<p>I am a web developer student who loves to learn new things and gets along with everyone. I have graphic design experience, and try to apply my creativity  &#8212; which stems from my love for music &#8212; to the websites I create. On top of my musical passion, I love watching ice hockey and exploring the history of various places.</p>
 			</article>
 		</section>
 
@@ -46,33 +40,39 @@
 			<h2>Portfolio</h2>
 			<!-- <div class="wrap">
 			</div> -->
-
+			
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!--Indicators-->
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 				<!--/.Indicators-->
 				<!--Slides-->
 				<div class="carousel-inner" role="listbox">
-					<!--First slide-->
-					<!-- <div class="carousel-item active">
-						<img class="d-block w-100" src="./images/GraphicDesign.jpg" alt="First slide" width="400" height="612">
-					</div>
 					
-					<div class="carousel-item">
-						<img class="d-block w-100" src="./images/IsometricSAPCenter.jpg" alt="Second slide" width="400" height="612">
-					</div> -->
-
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="./images/GretzkyMontage.jpg" alt="First slide" width="800" height="500">
+						<img class="d-block w-100" src="./images/GretzkyMontage.jpg" alt="First slide" width="50%" height="500">
 						<h3>Gretzky Montage</h3>
 						<p>Gretzky montage project done with Adobe Photoshop</p>
 					</div>
 					
 					<div class="carousel-item">
 						<img class="d-block w-100" src="./images/Triptych_PersonalNarrative.jpg" alt="Second slide" width="800" height="500">
+						<h3>Triptych</h3>
+						<p>Triptych personal narrative project done with Adobe Illustrator</p>
+					</div>
+
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./images/VirginiaCity_TravelMagazine_page2.jpg" alt="First slide" width="800" height="500">
+						<h3>Gretzky Montage</h3>
+						<p>Gretzky montage project done with Adobe Photoshop</p>
+					</div>
+					
+					<div class="carousel-item">
+						<img class="d-block w-100" src="./images/VirginiaCity_TravelMagazine_page7.jpg" alt="Second slide" width="800" height="500">
 						<h3>Triptych</h3>
 						<p>Triptych personal narrative project done with Adobe Illustrator</p>
 					</div>
@@ -97,9 +97,9 @@
 			<section id="testimonials" class="callout testimonials">
 				<article class="wrap">
 					<h2>Testimonials</h2>
-					<p><blockquote>"The man with his stick on ice. Some say that his second cousin is Wayne Gretzky. Has a heart of gold and skates of steel."</blockquote> - Justin Castilla, General Assembly WDI Instructor</p>
-					<p><blockquote>"I’ve only known Felix for a few weeks, but he comes across as an incredibly dedicated web developer. He’s got insightful commentary to share with those around him when working with new material. He should find a lot of success in this field if he keeps it up."</blockquote> - Hunter Cote, General Assembly WDI student</p>
-					<p><blockquote>"Felix is a hard worker. To become a good web designer, he's taken lots of relevant classes and has done a lot of projects to improve his web design knowledge. He is very kind and gets along with everyone. He loves music and is a hockey amateur."</blockquote> - Anonymous Graphic Design student</p>
+					<p id="testimonial_one"><blockquote>"The man with his stick on ice. Some say that his second cousin is Wayne Gretzky. Has a heart of gold and skates of steel."</blockquote> - Justin Castilla, General Assembly WDI Instructor</p>
+					<p id="testimonial_two"><blockquote>"I’ve only known Felix for a few weeks, but he comes across as an incredibly dedicated web developer. He’s got insightful commentary to share with those around him when working with new material. He should find a lot of success in this field if he keeps it up."</blockquote> - Hunter Cote, General Assembly WDI student</p>
+					<p id="testimonial_three"><blockquote>"Felix is a hard worker. To become a good web designer, he's taken lots of relevant classes and has done a lot of projects to improve his web design knowledge. He is very kind and gets along with everyone. He loves music and is a hockey amateur."</blockquote> - Anonymous Graphic Design student</p>
 				</article>
 			</section>
 

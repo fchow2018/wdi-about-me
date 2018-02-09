@@ -267,7 +267,7 @@ Portfolio
 }
 
 .carousel-item img {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 li {
@@ -277,6 +277,30 @@ li {
 h3, p {
 	text-align: center;
 }
+
+/*#myCarousel li {
+	background-color: #007889;
+}*/
+
+#myCarousel .active {
+	background-color: #fff;
+}
+
+#myCarousel li{
+   width: 10px;
+   height: 10px;
+   margin: 0 20px 60px 0;
+   text-indent: 0;
+   cursor: pointer;
+   border: none;
+   border-radius: 50%;
+   background-color:#007889;
+   box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+/*#myCarousel li .active {
+	background-color: #fff;
+}*/
 
 /* ----------------------------------------
 Testimonials
@@ -311,6 +335,16 @@ blockquote {
 
 .testimonials p {
 	margin-bottom: 3em;
+}
+
+#testimonial_one {
+	opacity: 1;
+	transition: 1s opacity;
+}
+
+#testimonial_one.fade-out {
+	opacity: o;
+	transition: none;
 }
 
 /* ----------------------------------------
