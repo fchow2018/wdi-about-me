@@ -35,7 +35,7 @@ $(document).ready(function () {
 		});
 	});
 
-	$(function() {
-		$('body').removeClass('fade-out');
-	}
+	// $(function() {
+	// 	$('body').removeClass('fade-out');
+	// }
 });

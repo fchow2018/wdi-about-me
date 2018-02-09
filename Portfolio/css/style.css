@@ -45,7 +45,7 @@ h1 {
 }
 
 .vertical-center h1 {
-	margin: -5em 0 0 20em;
+	margin: -8em 0 0 20em;
 }
 
 .vertical-center h2 {
@@ -54,7 +54,6 @@ h1 {
 
 h2 {
 	margin-bottom: 45px;
-	margin-bottom: 3rem;
 }
 
 
@@ -157,7 +156,7 @@ header {
 	padding-top: 30px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url('../images/20160618_FelixUniversityGraduation.jpg');
+	background-image: url('../images/20160618_FelixUniversityGraduation_edited.jpg');
 	background-attachment: fixed;
 	height: 100vh;
 }
@@ -242,6 +241,22 @@ button:hover {
 /* ----------------------------------------
 About
 ------------------------------------------- */
+
+.inspiration_quote blockquote {
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: -6em;
+}
+
+.inspiration_quote h2 {
+	font-size: 15px;
+	/*margin-bottom: 100em;*/
+}
+
+hr {
+	border: 5px solid black;
+}
+
 .about article {
 	max-width: 800px;
 	font-size: 17.6px;
@@ -252,6 +267,7 @@ About
 }
 
 .about h2 {
+	margin-top: 1.5em;
 	margin-bottom: 1em;
 	color: #fff;
 }
@@ -268,6 +284,8 @@ Portfolio
 
 .carousel-item img {
 	margin-bottom: 2em;
+	height: auto;
+	width: 70%;
 }
 
 li {
@@ -277,10 +295,6 @@ li {
 h3, p {
 	text-align: center;
 }
-
-/*#myCarousel li {
-	background-color: #007889;
-}*/
 
 #myCarousel .active {
 	background-color: #fff;
@@ -297,10 +311,6 @@ h3, p {
    background-color:#007889;
    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
 }
-
-/*#myCarousel li .active {
-	background-color: #fff;
-}*/
 
 /* ----------------------------------------
 Testimonials
@@ -335,16 +345,6 @@ blockquote {
 
 .testimonials p {
 	margin-bottom: 3em;
-}
-
-#testimonial_one {
-	opacity: 1;
-	transition: 1s opacity;
-}
-
-#testimonial_one.fade-out {
-	opacity: o;
-	transition: none;
 }
 
 /* ----------------------------------------
@@ -514,7 +514,7 @@ Media Queries
 	}
 
 	nav a {
-		padding: 2em -3em 3em 0;
+		padding:3em -3em 3em 0;
 	}
 
 	nav ul {
