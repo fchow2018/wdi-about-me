@@ -1,6 +1,6 @@
 Tools Used:
 
-Balsamiq (site mockup)
+Balsamiq (site mockup)<br>
 Sublime Text Editor
 
 Process:
