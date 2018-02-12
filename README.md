@@ -14,8 +14,8 @@ Unsolved Problems:
 Unable to re-organize nav links when browser shrinks; classes don't work
 Tried to have testimonials transition (fade in and fade out) unsuccessfully
 
-Biggest Win:
-Was about to use template and change things up without breaking much
+Biggest Win:<br>
+Using template and changing things up without breaking much
 
-Biggest challenge:
+Biggest challenge:<br>
 Trying to get carousel to work and customizing it
