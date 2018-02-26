@@ -3,6 +3,7 @@ $(document).ready(function () {
 	$('.contact').on('submit', function (evt) {
 		evt.preventDefault();
 
+		// TODO: Very snazzy!
 		// Code for validating the form
 		$('form input, form textarea').each(function() {
 			// Cache $(this) to optimize code a bit.
@@ -17,6 +18,7 @@ $(document).ready(function () {
 			}
 
 			if (fieldType === 'email') {
+				// TODO: Regex! Yessssss!!!!!!
 				var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 				var isValidEmailAddress = re.test($currentField.val());
 				if (!isValidEmailAddress) {
@@ -26,7 +28,7 @@ $(document).ready(function () {
 					return;
 			  }
 
-			} 
+			}
 
 			// Since we used return above, the below code will only run if the field has input and, if it is an email field, has a valid email address.
 			$currentField.removeClass('error');
@@ -35,6 +37,7 @@ $(document).ready(function () {
 		});
 	});
 
+	// TODO: Remove unused code from production codebase
 	// $(function() {
 	// 	$('body').removeClass('fade-out');
 	// }
