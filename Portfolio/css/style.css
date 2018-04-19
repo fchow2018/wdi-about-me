@@ -17,6 +17,13 @@ body {
 	letter-spacing: .02em;
 	text-align: center;
 	color: #44545E;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../images/20160618_FelixUniversityGraduation_edited.jpg');
+	background-attachment: fixed;
+	height: 100vh;
+	min-width:900px;
 }
 
 /* Responsive images */
@@ -146,8 +153,12 @@ section {
 }
 
 .callout {
-	background-color: #007889;
+	background-color: #007889;	
 }
+
+/*.callout #testimonials {
+	background-color: rgba(0, 120, 137, 0.5);
+}*/
 
 /* ----------------------------------------
 Header
@@ -159,6 +170,7 @@ header {
 	background-image: url('../images/20160618_FelixUniversityGraduation_edited.jpg');
 	background-attachment: fixed;
 	height: 100vh;
+	min-width:900px;
 }
 
 #welcome {
@@ -257,6 +269,10 @@ About
 	/*margin-bottom: 100em;*/
 }
 
+#about .callout.about{
+	background-color: rgba(0, 120, 137, 0.2);
+}
+
 .about article {
 	max-width: 800px;
 	font-size: 17.6px;
@@ -277,6 +293,10 @@ About
 Portfolio
 ------------------------------------------- */
 
+#portfolio {
+	background-color: #fff;
+}
+
 #portfolio h2 {
 	margin-bottom: 1em;
 	text-align: center;
@@ -294,6 +314,7 @@ li {
 
 h3, p {
 	text-align: center;
+	font-weight: 600;
 }
 
 #myCarousel .active {
@@ -316,16 +337,26 @@ h3, p {
 Testimonials
 ------------------------------------------- */
 
+#testimonials {
+	background-color: rgba(255, 221, 0, 0.7);
+}
+
 .testimonials article {
-	max-width: 600px;
+	max-width: 700px;
 	font-size: 17.6px;
 	font-size: 1.1rem;
+	font-weight: 500;
 	line-height: 1.1;
-	color: #fff;
-	text-align: center;
-	/*margin-bottom: 2em;*/
+	color: #000;
+	text-align: left;
+	/*word-break: break-all;*/
+	word-break: break-word;
+	/*hyphens: manual;*/
 	margin-bottom: 2em;
 	text-transform: none;
+	background-color: rgba(255, 221, 0, 0.7);
+	padding: 3em 5em 3em 5em;
+	width: 30%;
 }
 
 /*.testimonials p {
@@ -334,7 +365,6 @@ Testimonials
 
 .testimonials h2 {
 	margin-bottom: 1em;
-	color: #fff;
 	text-transform: uppercase;
 	/*text-align: center;*/
 }
@@ -374,6 +404,7 @@ Forms
 ------------------------------------------- */
 
 #contact {
+	background-color: #fff;
 	padding-top: 2rem;
 	text-align: center;
 }
@@ -408,6 +439,7 @@ input, textarea {
 	margin-bottom: .8rem;
 	padding: 10px 10px;
 	outline: 0;
+	/*font-weight: bold;*/
 }
 
 ::-webkit-input-placeholder {
@@ -417,7 +449,7 @@ input, textarea {
    letter-spacing: .05rem;
    font-size: 12.299px;
    font-size: .82rem;
-   font-weight: 600;
+   font-weight: 800;
 }
 
 :-moz-placeholder { /* Firefox 18- */
